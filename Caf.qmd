@@ -121,19 +121,17 @@ Primero Seleccione la etiqueta para comenzar a dibujar alrededor de las imágene
 
 Este proceso es sencillo pero poderoso, y es una herramienta esencial para crear datasets de calidad que luego se utilizan para entrenar modelos de IA.
 
-# Concluciones
-
-El uso de herramientas como Anaconda y Label Studio facilitan el análisis y manejo de datos esenciales para mejorar la productividad agrícola. Anaconda simplifica el uso de lenguajes como Python y R, permitiendo procesar grandes volúmenes de información y desarrollar modelos predictivos, mientras que Label Studio optimiza el etiquetado de datos, como imágenes de cultivos afectados por plagas o enfermedades, para entrenar modelos de inteligencia artificial. Estas herramientas no solo mejoran la precisión en investigaciones y toma de decisiones, sino que también promueven la innovación tecnológica y la sostenibilidad en el sector agrícola.
-
-
 # Resultados
 
 [Link de acceso de imágenes anotadas](https://drive.google.com/drive/folders/1Gi1rbrD4reFgSaOc76N1cmhDN0xiSYOc?usp=sharing)
+
+# Conclución
+
+El uso de herramientas como Anaconda y Label-Studio facilitan el análisis y manejo de datos esenciales para mejorar la productividad agrícola. Anaconda simplifica el uso de lenguajes como Python y R, permitiendo procesar grandes volúmenes de información y desarrollar modelos predictivos, mientras que Label-Studio optimiza el etiquetado de datos, como imágenes de cultivos afectados por plagas o enfermedades, para entrenar modelos de inteligencia artificial. Estas herramientas no solo mejoran la precisión en investigaciones y toma de decisiones, sino que también promueven la innovación tecnológica y la sostenibilidad en el sector agrícola.
 
 # Referencias
 
 *Anaconda.* (s. f.). Anaconda. Recuperado 12 de diciembre de 2024, de https://www.anaconda.com/download
 
 *Open Source Data Labeling.* (s. f.). Label Studio. Recuperado 12 de diciembre de 2024, de https://labelstud.io/
-
 
