@@ -1,6 +1,12 @@
 ---
 itle: "ANOTACION DE IMÁGENES DE CAFÉ"
-author: "Yoel Díaz Saucedo, Chávez Chacón elmer, Palacios Tejedo Nixon, Vilca Lopez Geison, Alavarado Muños Lesly, Rojas Campos Griselida."
+author: 
+  - "- Yoel Díaz Saucedo"
+  - "- Alavarado Muños Lesly"
+  - "- Chávez Chacón elmer"
+  - "- Palacios Tejedo Nixon"
+  - "- Vilca Lopez Geison"
+  - "- Rojas Campos Griselida"
 format:
   html:
    toc: true
