@@ -49,15 +49,9 @@ editor_options:
 
 -   **Instalación:**
 
-Label Studio se puede instalar en un servidor local o ejecutarse en la nube. La instalación local se puede hacer usando Docker o simplemente instalando el paquete con pip: Copiar código : pip install label-studio
+Label Studio se puede instalar en un servidor local o ejecutarse en la nube. La instalación local se puede hacer usando el paquete con pip: Copiar código : pip install label-studio
 
 ![](Instalar1.jpeg)
-
--   **Creación de un Proyecto:**
-
-Después de instalar Label Studio, puedes iniciar la aplicación con el siguiente comando: Copiar código :label-studio start
-
-Esto abrirá la aplicación en un navegador web donde puedes crear un nuevo proyecto. Un proyecto en Label Studio consiste en una colección de datos que vas a etiquetar.
 
 -   **Otra forma de iniciar Label-Studio**
 
@@ -70,6 +64,14 @@ b)  Instalar e Iniciar
 Iniciar Label Studio desde Anaconda Prompt
 
 ![](INIC.jpg)
+
+-   **Creación de un Proyecto:**
+
+Después de instalar Label Studio, puedes iniciar la aplicación con el siguiente comando: Copiar código :label-studio
+
+Esto abrirá la aplicación en un navegador web donde puedes crear un nuevo proyecto. Un proyecto en Label Studio consiste en una colección de datos que vas a etiquetar.
+
+![](Proy.jpeg)
 
 -   **Configuración del Tipo de Etiquetado:**
 
