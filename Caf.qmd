@@ -1,0 +1,126 @@
+---
+itle: "ANOTACION DE IMÁGENES DE CAFÉ"
+author: "Yoel Díaz Saucedo,..."
+format:
+  html:
+   toc: true
+   toc-location: left
+   embed-resources: true
+   number-sections: true
+   output-file: index
+   css: estilos.css
+editor_options: 
+  chunk_output_type: console
+---
+
+# ¿Qué es Anaconda?
+
+![Es una plataforma que facilita el uso de Python y R para realizar tareas de análisis de datos, ciencia de datos, aprendizaje automático y computación científica. Anaconda y sus herramientas asociadas son altamente relevantes en la agricultura debido a su capacidad para gestionar y analizar grandes volúmenes de datos.](Anaconda.jpg)
+
+
+**Algunos ejemplos de su aplicación en la agricultura son:**
+
+1.	Análisis de datos agrícolas
+1.	Monitoreo de cultivos
+1.	Agricultura de precisión
+1.	Modelado y predicción de clima
+1.	Gestión de recursos
+
+# ¿Qué es Label Studio?
+
+![Permite a los usuarios crear y gestionar anotaciones de datos de manera eficiente. Su propósito es proporcionar una plataforma fácil de usar para realizar tareas de etiquetado que son cruciales para entrenar modelos de IA. Las anotaciones pueden incluir tareas como clasificación, segmentación, detección de objetos, y más. Label Studio se puede instalar en un servidor local o ejecutarse en la nube. La instalación local se puede hacer usando Docker o simplemente instalando el paquete con pip: pip install label-studio y luego label-studio.](Label Studio.jpg)
+
+**Características principales:**
+
+- **Soporta múltiples tipos de datos:** Imágenes, texto, audio, video y más.
+
+- **Interfaz personalizable:** Los usuarios pueden crear sus propios flujos de trabajo y definir el tipo de anotación que se requiere (por ejemplo, etiquetar objetos en una imagen, o clasificar texto).
+
+- **Integración con modelos de aprendizaje automático:** Se puede conectar con modelos preexistentes para realizar anotaciones automáticas y luego corregirlas manualmente.
+
+- **Gestión de equipos:** Permite trabajar en equipo, asignar tareas a diferentes personas y realizar un seguimiento del progreso.
+
+## Modo de uso de Label Studio
+
+- **Instalación:**
+
+Label Studio se puede instalar en un servidor local o ejecutarse en la nube. La instalación local se puede hacer usando Docker o simplemente instalando el paquete con pip: Copiar código : pip install label-studio
+
+![](Instalar1.jpeg)
+
+- **Creación de un Proyecto:**
+
+Después de instalar Label Studio, puedes iniciar la aplicación con el siguiente comando: Copiar código :label-studio start
+
+Esto abrirá la aplicación en un navegador web donde puedes crear un nuevo proyecto. Un proyecto en Label Studio consiste en una colección de datos que vas a etiquetar.
+
+ - **Otra forma de iniciar Label-Studio**
+ 
+a) Abrir el terminal de **Anaconda Prompt**
+
+ ![](Anapro.jpg)
+
+b) Instalar e Iniciar 
+
+ Iniciar Label Studio desde Anaconda Prompt
+ 
+ ![](INIC.jpg)
+
+- **Configuración del Tipo de Etiquetado:**
+
+Cuando creas un proyecto, puedes definir qué tipo de tarea de etiquetado necesitas. Algunos ejemplos comunes son:
+
+**a) Clasificación de imágenes:** donde se asignan etiquetas a las imágenes (por ejemplo, "perro", "gato").
+
+**b) Detección de objetos:** donde se dibujan cuadros alrededor de objetos dentro de una imagen.
+
+**c) Segmentación de imágenes:** donde se etiquetan áreas específicas dentro de la imagen, útil en tareas de visión por computadora.
+
+- **Subir Datos:**
+
+Los datos (imágenes, audios, textos, videos, etc.) se cargan al proyecto. Puedes subir tus archivos desde tu computadora o importarlos desde un servidor o almacenamiento en la nube.
+
+- **Etiqueta de Datos:**
+
+Una vez que los datos están cargados, puedes comenzar a etiquetar. La interfaz de usuario de Label Studio es bastante intuitiva y permite a los usuarios seleccionar y etiquetar con facilidad. Si estás etiquetando imágenes, por ejemplo, puedes dibujar cuadros o polígonos alrededor de los objetos que quieres identificar y asignarles etiquetas específicas.
+
+- **Revisión y Exportación:**
+
+Después de realizar el etiquetado, el trabajo puede ser revisado por otros miembros del equipo (si se está trabajando en grupo). Los datos anotados pueden luego ser exportados en varios formatos, como JSON o CSV, para ser utilizados en el entrenamiento de modelos de Machine Learning.
+
+# Ejemplo con imágenes de la hoja de café
+
+Imagina que estás creando un modelo de detección de objetos que identifica animales en imágenes. Aquí hay un ejemplo del flujo de trabajo en Label Studio para este caso:
+
+## Crear un proyecto: Llamado **"GRUPO A6- CAFE".**
+
+![](crear.jpg)
+
+## Subir imágenes: Imágenes de las hojas de café.
+
+![](subir.jpg)
+
+## Definir tareas de etiquetado: Definir categorías como " leaf y coin".
+
+![](etiquetas.jpeg)
+
+## Etiquetado
+
+Primero Seleccione la etiqueta para comenzar a dibujar alrededor de las imágenes haciendo puntos.
+
+![](etic1.jpeg)
+
+## Revisión: El etiquetado se revisa y ajusta según sea necesario.
+
+![](revi.jpeg)
+
+Este proceso es sencillo pero poderoso, y es una herramienta esencial para crear datasets de calidad que luego se utilizan para entrenar modelos de IA.
+
+# Resultados
+
+https://drive.google.com/drive/folders/1Gi1rbrD4reFgSaOc76N1cmhDN0xiSYOc?usp=sharing
+
+
+
+
+
